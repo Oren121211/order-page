@@ -214,94 +214,129 @@
             {id: 'quantity4', name: 'בדיקת הריון 1', price: 5.20},
             {id: 'quantity5', name: 'בדיקת הריון 2', price: 6.50},
             {id: 'quantity6', name: 'בדיקה לדלקת בשתן', price: 13.90},
-            {id: 'quantity7', name: 'בדיקת קנדידה וגינאלית', price: 25.90}
+            {id: 'quantity7', name: 'בדיקת קנדידה וגינאלית', price: 17.20},
+            {id: 'quantity8', name: 'בדיקת סמים 8 פרמטרים', price: 29.00},
+            {id: 'quantity9', name: 'בדיקה לגילוי דם סמוי בצואה', price: 24.90},
+            {id: 'quantity10', name: 'בדיקה לאבחון וירוס הקורונה', price: 30.00},
+            {id: 'quantity11', name: 'בדיקת ביוץ - 7 באריזה', price: 21.00},
         ],
         future_pharmacy: [
-            {id: 'quantity1', name: 'בדיקת דם סמוי בצואה', price: 19.90},
-            {id: 'quantity2', name: 'בדיקת אלכוהול ברוק', price: 13.90},
-            {id: 'quantity3', name: 'בדיקה מהירה ל-HIV' , price: 19.90},
-            {id: 'quantity4', name: 'בדיקת כולסטרול', price: 5.20},
-            {id: 'quantity5', name: 'בדיקת סוכר', price: 6.50},
-            {id: 'quantity6', name: 'בדיקת לחץ דם', price: 13.90},
-            {id: 'quantity7', name: 'בדיקת שתן רגילה', price: 25.90}
+            {id: 'quantity10', name: 'בדיקה לאבחון וירוס הקורונה', price: 30.00},
+            {id: 'quantity1', name: 'פורמט עט - NO STEP בדיקות דלקת גרון', price: 19.90, bulkPrice: 17.90, bulkThreshold: 100},
+            {id: 'quantity2', name: 'STREP T בדיקה לדלקת גרון', price: 13.90, bulkPrice: 12.90, bulkThreshold: 100},
+            {id: 'quantity3', name: 'A + B בדיקה לשפעת - פורמט עט', price: 19.90},
+            {id: 'quantity4', name: 'בדיקת הריון 1 - רוקחים עתיד', price: 2.90},
+            {id: 'quantity5', name: 'בדיקת הריון 2 - רוקחים עתיד', price: 5.20},
+            {id: 'quantity6', name: 'בדיקת הריון "בשעה טובה"', price: 18.90},
+            {id: 'quantity7', name: 'בדיקת ביוץ "בשעה טובה"', price: 29.90},
+            {id: 'quantity8', name: 'בדיקת ביוץ 7 באריזה', price: 21.00},
+            {id: 'quantity9', name: 'בדיקה לדלקת בשתן', price: 13.90},
+            {id: 'quantity11', name: 'בדיקת קנדידה וגינאלית', price: 17.20},
+            {id: 'quantity12', name: 'בדיקה לגילוי דם סמוי בצואה', price: 24.90},
+            {id: 'quantity13', name: 'בדיקת סמים 8 פרמטרים', price: 29.00}
         ],
         shrem_pharmacy: [
-            {id: 'quantity1', name: 'בדיקת קורונה ביתית', price: 19.90},
-            {id: 'quantity2', name: 'בדיקת קורונה מהירה', price: 13.90},
-            {id: 'quantity3', name: 'בדיקת קורונה PCR' , price: 19.90},
-            {id: 'quantity4', name: 'בדיקת קורונה לילדים', price: 5.20},
-            {id: 'quantity5', name: 'בדיקת קורונה לנוער', price: 6.50},
-            {id: 'quantity6', name: 'בדיקת קורונה למבוגרים', price: 13.90},
-            {id: 'quantity7', name: 'בדיקת קורונה למבוגרים וילדים', price: 25.90}
+            {id: 'quantity1', name: 'פורמט עט - NO STEP בדיקות דלקת גרון', price: 19.90, bulkPrice: 17.90, bulkThreshold: 100},
+            {id: 'quantity2', name: 'STREP T בדיקה לדלקת גרון', price: 13.90, bulkPrice:12.90, bulkThreshold: 100},
+            {id: 'quantity3', name: 'A + B בדיקה לשפעת - פורמט עט', price: 19.90},
+            {id: 'quantity4', name: 'בדיקת הריון 1', price: 5.20},
+            {id: 'quantity5', name: 'בדיקת הריון 2', price: 6.50},
+            {id: 'quantity6', name: 'בדיקה לדלקת בשתן', price: 13.90},
+            {id: 'quantity7', name: 'בדיקת קנדידה וגינאלית', price: 17.20},
+            {id: 'quantity8', name: 'בדיקת סמים 8 פרמטרים', price: 29.00},
+            {id: 'quantity9', name: 'בדיקה לגילוי דם סמוי בצואה', price: 24.90},
+            {id: 'quantity10', name: 'בדיקה לאבחון וירוס הקורונה', price: 30.00},
+            {id: 'quantity11', name: 'בדיקת ביוץ - 7 באריזה', price: 21.00},
         ]
-    };
-
-    const pharmacyImages = {
-        pharmacy: 'https://www.healthline.com/hlcmsresource/images/medical/pharmacy_1296x728-header.jpg',
-        future_pharmacy: 'https://cdn.pixabay.com/photo/2016/04/18/23/36/pharmacy-1332434_960_720.jpg',
-        shrem_pharmacy: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Pharmacy.jpg/800px-Pharmacy.jpg'
     };
 
     function updateForm() {
         const placeType = document.getElementById('placeType').value;
-        const productListContainer = document.getElementById('productList');
-        const pharmacyImage = document.getElementById('pharmacyImage');
-        
-        // Clear current product list
-        productListContainer.innerHTML = '';
-        
-        // Add new products
-        if (productList[placeType]) {
-            productList[placeType].forEach(product => {
+        const productListDiv = document.getElementById('productList');
+        productListDiv.innerHTML = '';
+
+        if (placeType) {
+            const products = productList[placeType];
+            products.forEach(product => {
                 const productDiv = document.createElement('div');
                 productDiv.className = 'product';
                 productDiv.innerHTML = `
-                    <label for="${product.id}">${product.name} - ${product.price} ש"ח</label>
-                    <input type="number" id="${product.id}" name="${product.name}" min="0" step="1" value="0" onchange="updateTotalPrice()">
+                    <input type="number" id="${product.id}" min="0" value="0" oninput="calculateTotal()">
+                    <label for="${product.id}">${product.name}</label>
                 `;
-                productListContainer.appendChild(productDiv);
+                productListDiv.appendChild(productDiv);
             });
         }
 
-        // Update image
-        if (pharmacyImages[placeType]) {
-            pharmacyImage.src = pharmacyImages[placeType];
-            pharmacyImage.style.display = 'block';
-        } else {
-            pharmacyImage.style.display = 'none';
-        }
-
-        updateTotalPrice(); // Update the total price
+        updateImage();
     }
 
-    function updateTotalPrice() {
+    function calculateTotal() {
+        let total = 0;
         const placeType = document.getElementById('placeType').value;
-        let totalPrice = 0;
-        let preTaxPrice = 0;
-        
-        if (productList[placeType]) {
-            productList[placeType].forEach(product => {
-                const quantity = parseInt(document.getElementById(product.id).value) || 0;
-                if (product.bulkPrice && quantity >= product.bulkThreshold) {
-                    totalPrice += product.bulkPrice * quantity;
-                } else {
-                    totalPrice += product.price * quantity;
+        if (placeType) {
+            const products = productList[placeType];
+            products.forEach(product => {
+                const quantityInput = document.getElementById(product.id);
+                if (quantityInput.value > 0) {
+                    const quantity = parseInt(quantityInput.value);
+                    const price = product.bulkThreshold && quantity >= product.bulkThreshold ? product.bulkPrice : product.price;
+                    total += price * quantity;
                 }
-                preTaxPrice = totalPrice / 1.17;
             });
         }
+        const preTaxTotal = total;
+        const taxTotal = preTaxTotal * 1.17;
+        document.getElementById('preTaxPrice').innerText = `סה"כ ללא מע"מ: ${preTaxTotal.toFixed(2)} ש"ח`;
+        document.getElementById('totalPriceWithTax').innerText = `סה"כ כולל מע"מ: ${taxTotal.toFixed(2)} ש"ח`;
+    }
 
-        document.getElementById('preTaxPrice').innerText = `סה"כ לתשלום ללא מע"מ: ${preTaxPrice.toFixed(2)} ש"ח`;
-        document.getElementById('totalPriceWithTax').innerText = `סה"כ לתשלום כולל מע"מ: ${totalPrice.toFixed(2)} ש"ח`;
+    function updateImage() {
+        const pharmacyImage = document.getElementById('pharmacyImage');
+        const placeType = document.getElementById('placeType').value;
+        if (placeType === 'pharmacy') {
+            pharmacyImage.src = 'file:///C:/Users/orent/Downloads/%D7%A2%D7%99%D7%A6%D7%95%D7%91%20%D7%9C%D7%9C%D7%90%20%D7%A9%D7%9D.svg'; // החלף לכתובת התמונה האמיתית
+        } else if (placeType === 'future_pharmacy') {
+            pharmacyImage.src = 'http://localhost/%D7%98%D7%95%D7%A4%D7%A1%20%D7%94%D7%96%D7%9E%D7%A0%D7%94%20%D7%A8%D7%95%D7%A7%D7%97%D7%99%D7%9D%20%D7%A2%D7%AA%D7%99%D7%93.png'; // החלף לכתובת התמונה האמיתית
+        } else if (placeType === 'shrem_pharmacy') {
+            pharmacyImage.src = 'http://localhost/%D7%98%D7%95%D7%A4%D7%A1%20%D7%94%D7%96%D7%9E%D7%A0%D7%94%20%D7%99%D7%95%D7%9C%D7%99%20%202024%20-%20%D7%A4%D7%A8%D7%98%D7%99%D7%99%D7%9D.jpg'; // החלף לכתובת התמונה האמיתית
+        }
+        pharmacyImage.style.display = placeType ? 'block' : 'none';
     }
 
     document.getElementById('orderForm').addEventListener('submit', function(event) {
         event.preventDefault();
-        alert('ההזמנה נשלחה בהצלחה!');
+
+        const customerName = document.getElementById('customerName').value;
+        const placeType = document.getElementById('placeType').value;
+        const placeName = document.getElementById('placeName').value;
+        const phoneNumber = document.getElementById('phoneNumber').value;
+        let orderDetails = `שם המזמין: ${customerName}\nסוג המקום: ${placeType}\nשם המקום: ${placeName}\nמספר פלאפון: ${phoneNumber}\n\nמוצרים:\n`;
+
+        if (placeType) {
+            const products = productList[placeType];
+            products.forEach(product => {
+                const quantityInput = document.getElementById(product.id);
+                if (quantityInput.value > 0) {
+                    const quantity = parseInt(quantityInput.value);
+                    const price = product.bulkThreshold && quantity >= product.bulkThreshold ? product.bulkPrice : product.price;
+                    orderDetails += `${quantityInput.nextElementSibling.innerText.trim()} - כמות: ${quantity}, מחיר ליחידה: ${price.toFixed(2)} ש"ח\n`;
+                }
+            });
+        }
+
+        const preTaxPrice = document.getElementById('preTaxPrice').innerText;
+        const totalPriceWithTax = document.getElementById('totalPriceWithTax').innerText;
+        orderDetails += `\n${preTaxPrice}\n${totalPriceWithTax}`;
 
         window.location.href = `mailto:info@bmtdx.com?subject=הזמנה חדשה&body=${encodeURIComponent(orderDetails)}`;
     });
-          
+      
+</script>
+
+</body>
+</html>
+
     
     </script>
 
